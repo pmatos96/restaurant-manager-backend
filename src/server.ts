@@ -9,5 +9,5 @@ app.use(express.json());
 
 app.use(routes);
 
-app.listen(process.env.PORT || 80, () => console.log('Em execução na porta 80'));
+app.listen(process.env.PORT || 3333, () => console.log('Em execução na porta 3333'));
 
