@@ -9,5 +9,5 @@ app.use(express.json());
 
 app.use(routes);
 
-app.listen(3333, () => console.log('Ta rodano na 3333'));
+app.listen(process.env.PORT || 3333, () => console.log('Em execução na porta 3333'));
 
